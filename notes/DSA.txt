@@ -1,0 +1,100 @@
+1. Data Structures (DS)
+Data structures are ways of organizing and storing data for efficient access and modification. They are broadly categorized into:
+
+a. Linear Data Structures
+Array: Fixed-size, indexed collection of elements. Good for random access but poor for insertion/deletion.
+
+Linked List: Nodes connected by pointers. Efficient insertion/deletion, but no random access.
+
+Stack: LIFO (Last In, First Out). Useful in recursion, backtracking, and expression parsing.
+
+Queue: FIFO (First In, First Out). Used in scheduling, BFS, etc.
+
+Deque: Double-ended queue, allows insertion/deletion from both ends.
+
+b. Non-Linear Data Structures
+Trees: Hierarchical structure.
+
+Binary Tree, Binary Search Tree (BST): Each node has up to two children. BST maintains sorted order.
+
+Heap: Complete binary tree used for priority queues (Min-Heap or Max-Heap).
+
+Trie: Prefix tree, used in dictionaries and autocomplete.
+
+Graphs: Collection of nodes (vertices) and edges.
+
+Can be directed/undirected, weighted/unweighted.
+
+Represented using adjacency matrix/list.
+
+c. Hashing
+Hash Table / Hash Map: Stores key-value pairs with constant average-time complexity for insertion/search using a hash function. Useful for lookups, caching, etc.
+
+2. Algorithms
+Algorithms are step-by-step procedures for solving problems. Key categories:
+
+a. Sorting Algorithms
+Bubble, Insertion, Selection – Simple but inefficient (O(n²)).
+
+Merge Sort, Quick Sort, Heap Sort – Efficient (O(n log n)).
+
+Counting, Radix, Bucket Sort – Used for integers or specific distributions.
+
+b. Searching Algorithms
+Linear Search – O(n), used for unsorted data.
+
+Binary Search – O(log n), only for sorted arrays.
+
+c. Recursion & Divide and Conquer
+Solving problems by breaking them into subproblems (e.g., Merge Sort, Binary Search).
+
+d. Greedy Algorithms
+Make the best local choice at each step hoping for global optimum.
+
+Used in problems like Activity Selection, Huffman Coding, Kruskal’s/MST.
+
+e. Dynamic Programming (DP)
+Optimization over recursion. Store intermediate results (memoization or tabulation).
+
+Used in problems with overlapping subproblems and optimal substructure (e.g., Knapsack, LIS, LCS).
+
+f. Backtracking
+Try all possibilities by exploring and undoing choices (e.g., N-Queens, Sudoku Solver).
+
+g. Graph Algorithms
+Traversal: DFS (Depth-First Search), BFS (Breadth-First Search).
+
+Shortest Path: Dijkstra’s, Bellman-Ford, Floyd-Warshall.
+
+MST: Kruskal’s and Prim’s algorithms.
+
+Cycle Detection, Topological Sort, Union-Find: Used in DAGs, networks, etc.
+
+3. Complexity Analysis (Time and Space)
+Complexity analysis is the backbone of algorithm design, helping you evaluate the efficiency of a program. It’s mainly divided into:
+
+1. Time Complexity
+This measures how the execution time of an algorithm increases with input size n. We express it using Big-O notation, which captures the worst-case growth rate:
+
+O(1) – Constant time (e.g., accessing an array index).
+
+O(log n) – Logarithmic (e.g., binary search).
+
+O(n) – Linear (e.g., traversing an array).
+
+O(n log n) – Linearithmic (e.g., merge sort).
+
+O(n²) – Quadratic (e.g., nested loops for bubble sort).
+
+O(2ⁿ), O(n!) – Exponential and factorial, usually in recursive or backtracking algorithms.
+
+Time complexity helps compare scalability. For large inputs, an O(n log n) solution is dramatically faster than O(n²).
+
+2. Space Complexity
+This evaluates how much extra memory an algorithm uses relative to input size. Efficient algorithms balance both time and space usage.
+
+Analyzing complexity is critical when choosing the best algorithm for constraints like:
+
+Input size up to 10⁶: avoid O(n²)
+
+Real-time systems: prefer O(1) or O(log n)

@@ -1,0 +1,66 @@
+Web development is the creation of websites and web applications that run in a browser. It has two main areas:
+
+1. Frontend (Client-Side)
+This is everything the user sees and interacts with in the browser.
+
+Core Technologies:
+HTML (HyperText Markup Language): Structures content (e.g., headings, paragraphs, forms).
+
+CSS (Cascading Style Sheets): Styles the layout, colors, fonts, responsiveness.
+
+JavaScript (JS): Adds interactivity (e.g., sliders, buttons, dynamic content).
+
+Frameworks/Libraries:
+React.js: Component-based library for building dynamic UIs.
+
+Vue.js / Angular: Other modern frontend frameworks.
+
+Tailwind CSS / Bootstrap: Utility-first or component-based CSS frameworks for fast styling.
+
+Tools:
+NPM/Yarn: Package managers.
+
+Webpack/Vite/Parcel: Module bundlers.
+
+Babel: Transpiler for modern JS features.
+
+2. Backend (Server-Side)
+Handles business logic, databases, and APIs.
+
+Languages & Frameworks:
+Node.js (JavaScript runtime) + Express.js
+
+Python (with Flask or Django)
+
+PHP, Java (Spring Boot), Ruby on Rails
+
+Databases:
+Relational (SQL): MySQL, PostgreSQL
+
+NoSQL: MongoDB, Firebase
+
+Core Concepts:
+APIs (REST, GraphQL): Interfaces for client-server communication.
+
+Authentication & Authorization: User login, session management (OAuth, JWT).
+
+MVC Pattern: Separates Model, View, and Controller layers for cleaner code.
+
+3. Fullstack Development
+Combining frontend + backend. Example: MERN Stack (MongoDB, Express, React, Node.js)
+
+4. DevOps & Deployment
+Version Control: Git, GitHub
+
+CI/CD: GitHub Actions, Netlify, Vercel
+
+Hosting: Firebase, AWS, Heroku, Render
+
+5. Modern Practices
+Responsive Design: Mobile-first, using media queries and flexible layouts.
+
+Single Page Applications (SPA): Dynamic navigation without reloading.
+
+Progressive Web Apps (PWA): Offline-capable web apps.
+
+Web Security: HTTPS, CORS, Content Security Policy (CSP), XSS/CSRF prevention.
